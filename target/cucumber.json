@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Creating an new ServiceRequest",
+        "description": "",
+        "id": "smoketest;creating-an-new-servicerequest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10784769200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user log in to Maximo System",
+            "match": {
+              "location": "LoginSteps.user_log_in_to_Maximo_System()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2364900900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on \u0027GOTO\u0027 button",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_clicks_on_GOTO_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2159034900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on \u0027Service Desk\u0027 link",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_clicks_on_Service_Desk_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2087558500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on \u0027Service Requests(SP)\u0027 link",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_clicks_on_Service_Requests_SP_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28727600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user navigated to \u0027Service Requests(SP)\u0027 page",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_navigated_to_Service_Requests_SP_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1912155100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on plus button to create a new Service Request form",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_clicks_on_plus_button_to_create_a_new_Service_Request_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32183828400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user fill the new Service Request form",
+            "match": {
+              "location": "ServiceRequestCreationSteps.userFillTheNewServiceRequestFormForQuote(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Customer",
+                  "Location",
+                  "summary",
+                  "classification",
+                  "details",
+                  "reportedByPhone",
+                  "reportedByEmail",
+                  "customerReference",
+                  "customerReference2"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "SmokeTest-8",
+                  "C1000011",
+                  "L1001455",
+                  "Test SR creation",
+                  "QUOTEINSP \\ FABRIC \\ QUOTE2",
+                  "Test8",
+                  "07776023458",
+                  "test@email.com",
+                  "CUST123",
+                  "CUST456"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1213120600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on \u0027Save ServiceRequest\u0027 button",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_clicks_on_Save_ServiceRequest_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2745903100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verifies the status of the newly created ServiceRequest",
+            "match": {
+              "location": "ServiceRequestCreationSteps.user_verifies_the_status_of_the_newly_created_ServiceRequest()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2459956700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user copy the SR Number",
+            "match": {
+              "location": "ServiceRequestCreationSteps.userCopyTheSRNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2117607000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks on \u0027Work\u0027 tab",
+            "match": {
+              "location": "ServiceRequestCreationSteps.userClicksOnWorkTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3457320600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verify the \u0027WorkOrder\u0027Number",
+            "match": {
+              "location": "ServiceRequestCreationSteps.userVerifyTheWorkOrderNumber()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SmokeTest",
+    "description": "",
+    "id": "smoketest",
+    "keyword": "Feature",
+    "uri": "SmokeTest/smokeTestPack-UAT/Test16.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test16UAT"
+      },
+      {
+        "line": 1,
+        "name": "@SmokeTestdemo"
+      }
+    ]
+  }
+]
