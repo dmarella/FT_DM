@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 @CucumberOptions(
         features = "Features",
-        tags = {"@Test16UAT"},
+        tags = {"@Test6UAT"},
         format={"json:target/cucumber.json","html:target/site/cucumber-pretty"},
         glue = {"com/automation/stepDefinations"},
         monochrome = true,
