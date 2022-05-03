@@ -21,12 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="261cfdc7-3889-4a7f-8118-47c35ace24d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SmokeTest_FT_Results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SmokeTest_FT_Results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WO.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WO.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/runner/SmokeTest_RunnerFiles/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/runner/SmokeTest_RunnerFiles/RunnerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/cucumber-pretty/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/automation/runner/SmokeTest_RunnerFiles/RunnerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/automation/runner/SmokeTest_RunnerFiles/RunnerTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,6 +298,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1651594357366">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1651594357366" />
     <state width="1306" height="197" key="GridCell.Tab.0.bottom" timestamp="1649233551871">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
